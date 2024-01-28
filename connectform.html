@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Forms
+        </title>
+        <link rel="icon" href="new.png" type="image/x-icon">
+        <link rel="stylesheet" href="Personaliseform.css">
+    </head>
+    <body>
+        <marquee>This website is under construction.....</marquee>
+    <form name="Basic form" action="mailto:abc@zyz.com">
+        <fieldset>
+            <legend>Personal Info</legend>
+        <p>
+        <label for="Firstname"> First name : </label>
+        <input type="text" name="Firstname" id="Firstname" placeholder="kkk" required>
+        <br>
+        <label for="Lastname">Last name :</label>
+        <input type="text" name="Lastname" id="Lastname" placeholder="ccc" required>
+        <br>
+        <label for="age">Age : </label>
+        <input type="number" name="age" id="age" required>
+        <br>
+        <label for="phone">Phone no. : </label>
+        <input type="tel" name="phone" id="phone">
+        <br>
+        <label for="favourite">Your favourite number : </label>
+        <input type="number" name="favourite" id="favourite" min="0" max="100" step="1" value="0">
+        </p>
+        </fieldset>
+        <p>
+            <fieldset>
+                <legend>Info for account and coffee preference</legend>
+        <br>
+        <br>
+        <br>
+        <label for="username"> Create a username : </label>
+        <input type="text" name="username" id="username">
+        <br>
+        <br>
+        <label for="setpassword">Create a password : </label>
+        <input type="password" name="setpassword" id="setpassword">
+        <br>
+        <label for="favouritec">Your favourite coffee : </label>
+        <select name="Coffee" id="coffee">
+            <optgroup label="Classic">
+                <option value="Regular" selected>Regular</option>
+                <option value="Iced">Iced</option>
+            </optgroup>
+            <optgroup label="Espresso's">
+                <option value="latte">Latte</option>
+                <option value="cappuccino">cappuccino</option>
+                <option value="venti">Venti</option>
+            </optgroup>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        Your favourite type : <br>
+        <input typ="text" name="coffee" id="coffee" list="coffee-list">
+        <datalist id="coffee-list">
+            <option value="Mocha">Mocha</option>
+            <option value="Cappucinno">Cappucinno</option>
+            <option value="Cold">Cold</option>
+        </datalist>
+        </p>
+            </fieldset>
+        <fieldset>
+            <legend>About Favourites</legend>
+            <input type="radio" name="food" id="pizza" value="pizza">
+            <label for="pizza">Pizza</label>
+            <input type="radio" name="food" id="burger" value="burger">
+            <label for="burger">Burger</label>
+            <input type="radio" name="food" id="other" value="other">
+            <label for="other">Other</label>
+        </fieldset>
+        <fieldset>
+            <legend>Do you have pets ??</legend>
+            <label for="pets">What all pets you have ??</label><br>
+            <select name="pets" id="pets">
+                <optgroup label="Animals">
+                <option value="dog">Dog</option><br>
+                <option value="cat">Cat</option><br>
+                <option value="fish">Fish</option><br>
+                <option value="other">Others</option><br>
+            </optgroup>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Leave me a note</legend>
+            <label for="message">Your message : </label><br>
+            <textarea name="message" id="message" cols="30" rows="10">
+            </textarea>
+        </fieldset>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="submit" formaction="https.//httbin.org/post" formmethod="post">Post</button>
+        <button type="reset">Reset</button>
+    </form>
+    <section class="footer">
+        &copy;Krishanu Chatterjee
+    </section>
+    <section class="seclis">
+            <ul>
+            <li><a href="Index.html">Back to Previous Page</a></li>
+            <li><a href="meandfamily.html">More about Me</a></li>
+            </ul>
+    </section>
+    </body>
+</html>

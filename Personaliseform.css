@@ -1,0 +1,40 @@
+
+body{
+    background-color:bisque;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button{
+    margin-bottom:10px;
+}
+
+.footer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    color: white;
+    background-color: black;
+}
+
+.seclis ul {
+    list-style-type: none;
+    text-align: right;
+    background-color: black;
+    margin:0;
+    padding:0;
+}
+
+.seclis li {
+    display: inline-block;
+    background-color: black;
+    margin-inline: 2px ;
+}
+
+.seclis li a {
+    text-decoration: none;
+    color: white;
+}
+
+.seclis li a:hover,
+.seclis li a:focus {
+    color: dodgerblue;
+}
